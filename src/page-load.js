@@ -4,7 +4,7 @@ const pageLoad = () => {
     <ul>
       <li id="home">Home</li>
       <li id="menu">Menu</li>
-      <li id="contanct">Contact</li>
+      <li id="contact">Contact</li>
     </ul>
   </div>
   <div id='tab-content'>

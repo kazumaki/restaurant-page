@@ -2,7 +2,9 @@ const contactLoad = () => {
   const element = document.getElementById('tab-content');
   element.innerHTML = `
   <form>
-    <input type='tel' id='phone' name='phone'>
+    <input type='text' name='name' id='name'>
+    <input type='textarea' name='message' id='message'>
+    <input type='submit' id='submit' value='Send Message'>
   </form>
   `;
 }

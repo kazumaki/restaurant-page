@@ -25,6 +25,6 @@ window.onload = () => {
 
   tabs.home.addEventListener('click', homeLoad, false);
   tabs.menu.addEventListener('click', loadMenuContent, false);
-
+  tabs.contact.addEventListener('click', loadContactContent, false);
   loadHomeContent();
 }
