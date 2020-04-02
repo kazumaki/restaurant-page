@@ -1,0 +1,23 @@
+.tab-list {
+  list-style-type: none;
+  display: flex;
+  background-color: grey;
+
+  li {
+    background-color: lightgray;
+    padding: 20px;
+  }
+
+  li:hover {
+    background-color: grey;
+  }
+
+  .selected {
+    background-color: white !important;
+  }
+}
+
+#tab-content {
+  display: flex;
+  flex-direction: column;
+}
