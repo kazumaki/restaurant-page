@@ -9,6 +9,10 @@ Just clone the repository and open the index.html on your browser.
 
 ```
 git clone https://github.com/kazumaki/restaurant-page.git
+cd restaurant-page
+git checkout restaurant-page
+npm i
+npm run-script build
 ```
 
 ## Built With
