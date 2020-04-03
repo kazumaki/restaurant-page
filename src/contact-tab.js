@@ -9,6 +9,6 @@ const contactLoad = () => {
     <input type='submit' id='submit' value='Send Message'>
   </form>
   `;
-}
+};
 
 export default contactLoad;

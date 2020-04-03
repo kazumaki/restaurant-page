@@ -1,20 +1,14 @@
-import pageLoad from './page-load.js';
-import homeLoad from './home-tab.js';
-import menuLoad from './menu-tab.js';
-import contactLoad from './contact-tab.js';
+import pageLoad from './page-load';
+import homeLoad from './home-tab';
+import menuLoad from './menu-tab';
+import contactLoad from './contact-tab';
 import './style.css';
 
-const homeTab = () => {
-  return document.getElementById('home');
-}
+const homeTab = () => document.getElementById('home');
 
-const menuTab = () => {
-  return document.getElementById('menu');
-}
+const menuTab = () => document.getElementById('menu');
 
-const contactTab = () => {
-  return document.getElementById('contact');
-}
+const contactTab = () => document.getElementById('contact');
 
 const loadHomeContent = () => {
   homeLoad();

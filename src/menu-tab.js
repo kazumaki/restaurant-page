@@ -7,6 +7,6 @@ const menuLoad = () => {
     <li>Kerupuk Udang - $15</li>
     <li>New York Style Pizza - $7</li>
   </ul>`;
-}
+};
 
 export default menuLoad;
