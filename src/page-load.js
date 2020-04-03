@@ -9,7 +9,7 @@ const pageLoad = () => {
   </div>
   <div id='tab-content'>
 
-  </div>`
-}
+  </div>`;
+};
 
 export default pageLoad;
