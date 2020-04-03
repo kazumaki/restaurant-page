@@ -2,6 +2,7 @@ import pageLoad from './page-load.js';
 import homeLoad from './home-tab.js';
 import menuLoad from './menu-tab.js';
 import contactLoad from './contact-tab.js';
+import './style.css';
 
 const homeTab = () => {
   return document.getElementById('home');
