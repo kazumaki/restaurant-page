@@ -33,6 +33,7 @@
   #tab-content form {
     display: flex;
     flex-direction: column;
-    min-width: 400px; }
+    min-width: 400px;
+    max-width: 500px; }
 
 /*# sourceMappingURL=style.css.map */
